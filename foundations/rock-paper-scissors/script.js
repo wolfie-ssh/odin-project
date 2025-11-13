@@ -15,10 +15,12 @@ function getComputerChoice() {
 
 function getHumanChoice() {
     let HumanChoice = prompt("Enter Your Choice: ");
+    return HumanChoice;
     console.log(HumanChoice);
 }
 
-getComputerChoice();
+let computerChoice = getComputerChoice();
+let humanChoice = getHumanChoice();
 
 /*
 
